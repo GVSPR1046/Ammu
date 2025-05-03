@@ -1,0 +1,54 @@
+
+Step-by-Step Guide: Handwritten Digit Recognition Project
+
+===========================
+1. Install Required Packages
+===========================
+Open terminal or command prompt and run:
+
+pip install flask tensorflow pillow numpy
+
+====================
+2. Train the Model
+====================
+- Download and save 'train_digit_model.py'.
+- Run it using:
+
+    python train_digit_model.py
+
+- After training, it will generate a model file:
+
+    handwritten_digit_model.h5
+
+===========================
+3. Set Up the Web App
+===========================
+- Download and extract the digit_recognizer_project.zip.
+- Move handwritten_digit_model.h5 to the same folder as digit_app.py
+
+=======================
+4. Run the Web App
+=======================
+- In the same folder, open terminal and run:
+
+    python digit_app.py
+
+- You will see:
+
+    * Running on http://127.0.0.1:5000/
+
+===========================
+5. Use the App in Browser
+===========================
+- Open your web browser and go to:
+
+    http://127.0.0.1:5000/
+
+- You can:
+  - Draw a digit on the canvas
+  - OR upload a digit image
+  - Click "Predict" to get the result
+
+===================
+Enjoy your project!
+===================
